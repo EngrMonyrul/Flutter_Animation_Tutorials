@@ -1,4 +1,4 @@
-import 'package:animation_tutorials/animations/animated_align_example.dart';
+import 'package:animation_tutorials/animated_align_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
