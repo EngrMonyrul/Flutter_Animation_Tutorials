@@ -1,3 +1,4 @@
+import 'package:animation_tutorials/animated_builder_example.dart';
 import 'package:animation_tutorials/animated_align_example.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: AnimatedAlignExample(),
+      home: AnimatedBuilderExample(),
     );
   }
 }
