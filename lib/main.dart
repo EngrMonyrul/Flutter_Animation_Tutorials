@@ -1,3 +1,4 @@
+import 'package:animation_tutorials/animated_cross_fade_example.dart';
 import 'package:flutter/material.dart';
 import 'animated_container_example.dart';
 
@@ -11,11 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Animation Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: AnimatedContainerExample(),
+      home: AnimatedCrossFadeExample(),
     );
   }
 }
